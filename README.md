@@ -8,7 +8,7 @@ The BitBayAPI constructor receive public and private key using to authentication
 
 require_once('BitbayApi.class.php');
 
-$api = mew bitbayAPI('1c990eb1-fab5-4890-98fd-3ec4bf185254', 'dd607870-a151-4ffa-a57b-a0c4b70dded3');
+$api = new bitbayAPI('1c990eb1-fab5-4890-98fd-3ec4bf185254', 'dd607870-a151-4ffa-a57b-a0c4b70dded3');
 
 $api->callApi('');
 ```
