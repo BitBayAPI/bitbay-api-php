@@ -32,7 +32,7 @@ class bitbayAPI
 		$headers = array(
 			'API-Key: ' . $this->pubkey,
 			'API-Hash: ' . $sign,
-			'operation-id: ' . GetUUID(random_bytes(16)) ,
+			'operation-id: ' . $this->GetUUID(random_bytes(16)) ,
 			'Request-Timestamp: ' . $time,
 			'Content-Type: application/json'
 		);
